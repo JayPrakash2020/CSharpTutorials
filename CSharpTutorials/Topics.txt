@@ -1,0 +1,27 @@
+﻿Loop - When a block has repetive nature , then it is called looping
+   There are three types of loop 
+    1. While
+    2. For 
+    3. Do While
+
+On the basis of their nature there are two types of loop 
+  1. Entry Control - While and For 
+  2. Exit Control - Do-While
+
+  While - 
+    Syntax - 
+
+      initilization 
+
+      while (contition)
+      {
+       statements;
+
+       incr/decr;
+      }
+
+
+
+      1. Library - Author - Books - Return Status
+      2. Employee - Partime - FullTime - SalaryPT SalaryFT
+      3. Student - Course - Fee
