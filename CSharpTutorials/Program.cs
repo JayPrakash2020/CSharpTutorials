@@ -1,4 +1,5 @@
-﻿using CSharpTutorials.BasicCSharp.ArrayFunction;
+﻿using CSharpTutorials.BasicCSharp.Abstraction;
+using CSharpTutorials.BasicCSharp.ArrayFunction;
 using CSharpTutorials.BasicCSharp.ClassObject;
 using CSharpTutorials.BasicCSharp.ControlStatement;
 using CSharpTutorials.BasicCSharp.Function;
@@ -18,8 +19,32 @@ namespace CSharpTutorials
     {
         static void Main(string[] args)
         {
-            BaseClass baseClass = new BaseClass();
-            baseClass.showColor();
+            NameSpaceDemo nsd = new NameSpaceDemo();
+            nsd.Msg();
+            demo1.NameSpaceDemo dnsd = new demo1.NameSpaceDemo();
+            dnsd.Msg();
+
+            demo2.NameSpaceDemo  dnsd2= new demo2.NameSpaceDemo();
+            dnsd2.Msg();
+           
+            //Drawable d;
+            //d = new Square();
+            //d.draw();
+            //d = new Cone();
+            //d.draw();
+            //d = new InterfaceDemo();
+            //d.draw();
+            //Shape s;
+            //s = new Rectange();
+            //s.draw();
+            //s = new Circle();
+            //s.draw();
+            //s = new AbstractionDemo();
+            //s.draw();
+
+
+            //BaseClass baseClass = new BaseClass();
+            //baseClass.showColor();
             //Party p=new Party();
             //p.Msg();
 
