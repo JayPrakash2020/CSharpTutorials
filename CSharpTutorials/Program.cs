@@ -2,6 +2,7 @@
 using CSharpTutorials.BasicCSharp.ArrayFunction;
 using CSharpTutorials.BasicCSharp.ClassObject;
 using CSharpTutorials.BasicCSharp.ControlStatement;
+using CSharpTutorials.BasicCSharp.ExceptionHandling;
 using CSharpTutorials.BasicCSharp.Function;
 using CSharpTutorials.BasicCSharp.Inheritance;
 using CSharpTutorials.BasicCSharp.Looping;
@@ -19,14 +20,27 @@ namespace CSharpTutorials
     {
         static void Main(string[] args)
         {
-            NameSpaceDemo nsd = new NameSpaceDemo();
-            nsd.Msg();
-            demo1.NameSpaceDemo dnsd = new demo1.NameSpaceDemo();
-            dnsd.Msg();
+            ExceptionDemo ed = new ExceptionDemo();
+            try
+            {
+                ed.check();
+            }
+            catch (UserDefineException ude)
+            {
+             Console.WriteLine(ude.Message);    
+            }
 
-            demo2.NameSpaceDemo  dnsd2= new demo2.NameSpaceDemo();
-            dnsd2.Msg();
-           
+
+            //Trycatchdemo tcd = new Trycatchdemo();
+            //tcd.Progrmademo();
+            //NameSpaceDemo nsd = new NameSpaceDemo();
+            //nsd.Msg();
+            //demo1.NameSpaceDemo dnsd = new demo1.NameSpaceDemo();
+            //dnsd.Msg();
+
+            //demo2.NameSpaceDemo  dnsd2= new demo2.NameSpaceDemo();
+            //dnsd2.Msg();
+
             //Drawable d;
             //d = new Square();
             //d.draw();

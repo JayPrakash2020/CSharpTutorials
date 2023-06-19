@@ -58,6 +58,8 @@
     <Compile Include="BasicCSharp\ControlStatement\SimpleIf.cs" />
     <Compile Include="BasicCSharp\ControlStatement\SimpleIfElse.cs" />
     <Compile Include="BasicCSharp\ControlStatement\SwitchCase.cs" />
+    <Compile Include="BasicCSharp\ExceptionHandling\Trycatchdemo.cs" />
+    <Compile Include="BasicCSharp\ExceptionHandling\UserDefineException.cs" />
     <Compile Include="BasicCSharp\Function\FunctionAll.cs" />
     <Compile Include="BasicCSharp\Function\ValueandReftype.cs" />
     <Compile Include="BasicCSharp\Inheritance\MultipleLevelInheritance.cs" />
