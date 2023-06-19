@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicCSharp\Abstraction\AbstractionDemo.cs" />
+    <Compile Include="BasicCSharp\Abstraction\InterfaceDemo.cs" />
+    <Compile Include="BasicCSharp\Abstraction\NameSpaceDemo.cs" />
+    <Compile Include="BasicCSharp\Abstraction\Nspacedemo.cs" />
     <Compile Include="BasicCSharp\ArrayFunction\1DArray.cs" />
     <Compile Include="BasicCSharp\ArrayFunction\ArrayFunctions.cs" />
     <Compile Include="BasicCSharp\ArrayFunction\_2DArray.cs" />
