@@ -1,4 +1,5 @@
-﻿using CSharpTutorials.BasicCSharp.Abstraction;
+﻿using CSharpTutorials.Advance.Collection;
+using CSharpTutorials.BasicCSharp.Abstraction;
 using CSharpTutorials.BasicCSharp.ArrayFunction;
 using CSharpTutorials.BasicCSharp.ClassObject;
 using CSharpTutorials.BasicCSharp.ControlStatement;
@@ -20,15 +21,26 @@ namespace CSharpTutorials
     {
         static void Main(string[] args)
         {
-            ExceptionDemo ed = new ExceptionDemo();
-            try
-            {
-                ed.check();
-            }
-            catch (UserDefineException ude)
-            {
-             Console.WriteLine(ude.Message);    
-            }
+            HashSetClass hashSetClass = new HashSetClass();
+          //  hashSetClass.HashSetDemo();
+            hashSetClass.RemoveDuplicateCharacter();
+
+            //DictionaryClass dc = new DictionaryClass();
+            //dc.DictionaryDemo();
+
+            //ListClass lc = new ListClass();
+
+            //lc.ListDemo();
+
+            //ExceptionDemo ed = new ExceptionDemo();
+            //try
+            //{
+            //    ed.check();
+            //}
+            //catch (UserDefineException ude)
+            //{
+            // Console.WriteLine(ude.Message);    
+            //}
 
 
             //Trycatchdemo tcd = new Trycatchdemo();

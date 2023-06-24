@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Advance\Collection\DictionaryClass.cs" />
+    <Compile Include="Advance\Collection\HashSetClass.cs" />
+    <Compile Include="Advance\Collection\ListClass.cs" />
+    <Compile Include="Advance\Generics\GenericClassDemo.cs" />
     <Compile Include="BasicCSharp\Abstraction\AbstractionDemo.cs" />
     <Compile Include="BasicCSharp\Abstraction\InterfaceDemo.cs" />
     <Compile Include="BasicCSharp\Abstraction\NameSpaceDemo.cs" />
