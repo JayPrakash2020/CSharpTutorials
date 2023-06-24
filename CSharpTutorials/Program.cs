@@ -1,4 +1,5 @@
 ﻿using CSharpTutorials.Advance.Collection;
+using CSharpTutorials.Advance.Generics;
 using CSharpTutorials.BasicCSharp.Abstraction;
 using CSharpTutorials.BasicCSharp.ArrayFunction;
 using CSharpTutorials.BasicCSharp.ClassObject;
@@ -21,9 +22,36 @@ namespace CSharpTutorials
     {
         static void Main(string[] args)
         {
-            HashSetClass hashSetClass = new HashSetClass();
-          //  hashSetClass.HashSetDemo();
-            hashSetClass.RemoveDuplicateCharacter();
+
+            GenericClassDemo<int> arr = new GenericClassDemo<int>(5);
+
+            for(int c=0;c<5;c++)
+            {
+                arr.SetItem(c, c * 5);
+            }
+
+            for(int c=0;c<5;c++)
+            {
+                Console.Write(arr.getItem(c)+"  ");
+            }
+
+            Console.WriteLine();
+            GenericClassDemo<char> arr1 = new GenericClassDemo<char>(5);
+            for (int c = 0; c < 5; c++)
+            {
+                arr1.SetItem(c, (char)(c +97));
+            }
+
+            for (int c = 0; c < 5; c++)
+            {
+                Console.Write(arr1.getItem(c) + "  ");
+            }
+            //GenericClassDemo<string> gen = new GenericClassDemo<string>("I am creating a Basic Program");
+            //GenericClassDemo<int> gen1 = new GenericClassDemo<int>(1234);
+            //GenericClassDemo<char> gen2 = new GenericClassDemo<char>('J');
+            //  HashSetClass hashSetClass = new HashSetClass();
+            ////  hashSetClass.HashSetDemo();
+            //  hashSetClass.RemoveDuplicateCharacter();
 
             //DictionaryClass dc = new DictionaryClass();
             //dc.DictionaryDemo();
